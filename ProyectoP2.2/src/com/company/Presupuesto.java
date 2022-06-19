@@ -63,4 +63,8 @@ public class Presupuesto {
     public void setViaje(double viaje) {
         this.viaje = viaje;
     }
+
+    public double total(){
+        return this.equipamiento+this.operacional+this.conferencia+this.remuneracionT+this.viaje+this.viaticos;
+    }
 }

@@ -12,7 +12,6 @@ public class Main {
 
         n1.lecturaArchivo("C:\\Users\\Salvador\\Documents\\GitHub\\ProyectoP2.2\\ProyectoP2.2\\src\\proyectos.json");
 
-        Academico aca = (Academico) n1.getIngresados().get(0).getEquipo().get(0);
-        System.out.println(aca.getNombre());
+        System.out.println(n1.getIngresados().get(0).getEquipo().get(0).getNombre());
     }
 }

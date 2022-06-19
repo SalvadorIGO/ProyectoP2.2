@@ -1,5 +1,5 @@
 package com.company;
-public abstract class Integrante {
+public class Integrante {
     private String rut;
     private String nombre;
     private double dedicacionMax;

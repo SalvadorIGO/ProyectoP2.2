@@ -11,7 +11,7 @@ public class Proyecto {
     private double duracion;
     private boolean estado;
     private int tipoProyecto;
-    private List<Object> equipo;
+    private List<Integrante> equipo;
     private Integrante director;
     private String motivo;
 
@@ -90,11 +90,11 @@ public class Proyecto {
         this.motivo = motivo;
     }
 
-    public List<Object> getEquipo() {
+    public List<Integrante> getEquipo() {
         return equipo;
     }
 
-    public void setEquipo(List<Object> equipo) {
+    public void setEquipo(List<Integrante> equipo) {
         this.equipo = equipo;
     }
 }

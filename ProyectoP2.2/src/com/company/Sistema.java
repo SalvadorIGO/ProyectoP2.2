@@ -36,6 +36,20 @@ public class Sistema {
         }
     }
 
+    private int verificarPresupuesto(Presupuesto v1){
+        if(v1.total() < 30000000){
+            return 1;
+        }
+        return 0;
+    }
+
+    private int verificarDuracion(double duracion){
+        if(duracion < 12){
+            return 1;
+        }
+        return 0;
+    }
+
     public void crearArchsJS(){
 
     }
