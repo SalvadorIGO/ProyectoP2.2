@@ -7,8 +7,13 @@ public class Presupuesto {
     private double viaticos;
     private double viaje;
 
-    public Presupuesto() {
-
+    public Presupuesto(double operacional, double equipamiento, double remuneracionT, double conferencia, double viaticos, double viaje) {
+        this.operacional = operacional;
+        this.equipamiento = equipamiento;
+        this.remuneracionT = remuneracionT;
+        this.conferencia = conferencia;
+        this.viaticos = viaticos;
+        this.viaje = viaje;
     }
 
     public double getOperacional() {

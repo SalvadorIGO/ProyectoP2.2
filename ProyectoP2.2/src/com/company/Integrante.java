@@ -14,26 +14,8 @@ public abstract class Integrante {
         this.tipoIntegrante = tipoIntegrante;
     }
 
-    public double getDedicacionMax() {
-        return this.dedicacionMax;
-    }
-
-    public void setDedicacionMax(double dedicacionMax) {
-        this.dedicacionMax = dedicacionMax;
-    }
-
-    public double getDedicacionMin() {
-        return this.dedicacionMin;
-    }
-
-    public void setDedicacionMin(double dedicacionMin) {
-        this.dedicacionMin = dedicacionMin;
-    }
-
-    public abstract void reducH(double var1);
-
     public String getRut() {
-        return this.rut;
+        return rut;
     }
 
     public void setRut(String rut) {
@@ -41,15 +23,31 @@ public abstract class Integrante {
     }
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    public double getDedicacionMax() {
+        return dedicacionMax;
+    }
+
+    public void setDedicacionMax(double dedicacionMax) {
+        this.dedicacionMax = dedicacionMax;
+    }
+
+    public double getDedicacionMin() {
+        return dedicacionMin;
+    }
+
+    public void setDedicacionMin(double dedicacionMin) {
+        this.dedicacionMin = dedicacionMin;
+    }
+
     public int getTipoIntegrante() {
-        return this.tipoIntegrante;
+        return tipoIntegrante;
     }
 
     public void setTipoIntegrante(int tipoIntegrante) {

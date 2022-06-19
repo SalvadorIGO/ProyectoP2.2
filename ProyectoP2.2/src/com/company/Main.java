@@ -1,9 +1,18 @@
 package com.company;
 
+import com.google.gson.stream.JsonToken;
+
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("Hello");
+        Sistema n1 = new Sistema();
+
+        n1.lecturaArchivo("C:\\Users\\Salvador\\Documents\\GitHub\\ProyectoP2.2\\ProyectoP2.2\\src\\proyectos.json");
+
+        Academico aca = (Academico) n1.getIngresados().get(0).getEquipo().get(0);
+        System.out.println(aca.getNombre());
     }
 }
